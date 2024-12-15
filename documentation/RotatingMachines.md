@@ -91,11 +91,11 @@ Bearing faults are often identified by specific fault frequencies that correspon
 | Fault Type                        | Frequency Indicator                           | Frequency Range             |
 |-----------------------------------|-----------------------------------------------|-----------------------------|
 | **Ball Pass Frequency (Inner Race)** | $$BPFI = \frac{N}{2} \left( 1 + \frac{d}{D} \right) f_r $$ | High frequency (kHz range)  |
-| **Ball Pass Frequency (Outer Race)** | $$ BPFI = \frac{N}{2} \left( 1 - \frac{d}{D} \right) f_r $$ | Medium-high frequency       |
-| **Fundamental Train Frequency (FTF)** | FTF = \(\frac{f_r}{2} \left( 1 - \frac{d}{D} \right) \) | Low frequency               |
+| **Ball Pass Frequency (Outer Race)** | $$BPFI = \frac{N}{2} \left( 1 - \frac{d}{D} \right) f_r $$ | Medium-high frequency       |
+| **Fundamental Train Frequency (FTF)** | $$FTF = \frac{f_r}{2} \left( 1 - \frac{d}{D} \right) \$$ | Low frequency               |
 | **Gear Mesh Frequency (MF)**       | MF = Number of Teeth × \(f_r\)                | Medium frequency            |
 | **Harmonics of Mesh Frequency**   | Harmonics of MF                              | Medium-high frequency       |
-| **Shaft Rotation Frequency (f_r)** | \(f_r = \frac{\text{Shaft RPM}}{60}\)         | Low frequency               |
+| **Shaft Rotation Frequency (f_r)** | $$f_r = \frac{\text{Shaft RPM}}{60}$$         | Low frequency               |
 | **Harmonics of Shaft Speed**      | \(f_r, 2f_r, 3f_r, \dots\)                   | Low-medium frequency        |
 | **Imbalance Frequency**           | \(f_r\), \(2f_r\), \(3f_r\), \dots           | Low-medium frequency        |
 | **Misalignment Frequency**        | Sidebands around \(f_r\) and its harmonics   | Low-medium frequency        |
