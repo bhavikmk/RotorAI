@@ -52,11 +52,11 @@ This mode offers a selection of machine learning and deep learning models tailor
 
 
 ### Project Roadmap
-- Data Collection & Preprocessing: Set up sensors (e.g., accelerometers, temperature probes) and preprocess raw data for both modes.
-- Mode 1 Implementation: Develop the FFT-based analysis pipeline with logical fault detection rules.
-- Mode 2 Development: Train and deploy lightweight AI models on edge devices.
-- System Integration: Combine both modes into a single deployment framework with user-friendly visualization tools.
-- Validation: Test the system in real-world turbine (steam, gas, wind) environments and iteratively improve performance.
+- [x] Data Collection & Preprocessing: Set up sensors (e.g., vibration probes, speed probes) and preprocess raw data for both modes.
+- [ ] Mode 1 Implementation: Develop the FFT-based analysis pipeline with logical fault detection rules.
+- [ ] Mode 2 Development: Train and deploy lightweight AI models on edge devices.
+- [ ] System Integration: Combine both modes into a single deployment framework with user-friendly visualization tools.
+- [ ] Validation: Test the system in real-world turbine (steam, gas, wind) environments and iteratively improve performance.
 
 <!-- ### Project Structure
 
@@ -80,3 +80,6 @@ wind_turbine_bearing_ai/
 ### References
 1. [Windturbine High Speed Bearing Dataset](https://www.kaggle.com/datasets/luishpinto/wind-turbine-high-speed-bearing-prognosis-data)
 
+2. [Knowledge transfer in fault diagnosis of rotary machines](https://ietresearch.onlinelibrary.wiley.com/doi/pdfdirect/10.1049/cim2.12047)
+
+3. [Multi-Fault Diagnosis Of Industrial Rotating Machines Using Data-Driven Approach: A Review Of Two Decades Of Research](https://arxiv.org/pdf/2206.14153)
