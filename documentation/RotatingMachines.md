@@ -17,7 +17,7 @@ Bearing faults are often identified by specific fault frequencies that correspon
   
 - **Ball Pass Frequency of Outer Race (BPFI)**:
   - **Formula**:
-    $$BPFI = \frac{N}{2} \left( 1 - \frac{d}{D} \right) f_r
+    $$BPFI = \frac{N}{2} \left( 1 - \frac{d}{D} \right) f_r$$
   - **Frequency Range**: Found in a lower frequency range compared to BPFI.
 
 - **Fundamental Train Frequency (FTF)**:
