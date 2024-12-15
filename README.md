@@ -58,6 +58,11 @@ This mode offers a selection of machine learning and deep learning models tailor
 - [ ] System Integration: Combine both modes into a single deployment framework with user-friendly visualization tools.
 - [ ] Validation: Test the system in real-world turbine (steam, gas, wind) environments and iteratively improve performance.
 
+### Write ups for Concepts
+
+- [Rotating Equipment Write up for Frequency Analysis](https://github.com/bhavikmk/RotorAI/blob/main/documentation/RotatingMachines.md)
+
+
 <!-- ### Project Structure
 
 ```

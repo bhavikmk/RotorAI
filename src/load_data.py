@@ -1,5 +1,5 @@
 import pandas as pd
 import numpy as np
 
-df = pd.read_csv("data.csv")
-print(df.describe())
+data = np.load('20220428-170827.npy')
+print(data.shape)
