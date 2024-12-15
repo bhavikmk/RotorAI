@@ -2,8 +2,6 @@
 
 <img src="https://raw.githubusercontent.com/bhavikmk/windturbine/refs/heads/main/src/infographic.webp" alt="Predictive Maintenance System for Windturbine" width="300" height="300">
 
-
-
 ### Problem Statement
 
 high-speed bearings are critical components subject to extreme loads, wear, and environmental conditions. Unexpected bearing failures can lead to catastrophic system damage, costly downtime, and significant loss of energy production. This project provides a scalable, real-time, and cost-effective system for predictive maintenance to address these challenges.
@@ -15,9 +13,9 @@ The project introduces a dual-mode system:
 
 This mode uses physics-based methods for time-domain and frequency-domain analysis to diagnose bearing faults.
 
-- Signal Processing: Extracts meaningful features from sensor data using time-series decomposition and Fast Fourier Transform (FFT).
-- Frequency Analysis: Identifies fault signatures by analyzing harmonics and resonances in the frequency spectrum.
-- Logical Structures: Implements rule-based decision logic for fault diagnosis, leveraging predefined thresholds and bearing fault frequencies.
+- **Signal Processing**: Extracts meaningful features from sensor data using time-series decomposition and Fast Fourier Transform (FFT).
+- **Frequency Analysis**: Identifies fault signatures by analyzing harmonics and resonances in the frequency spectrum.
+- **Logical Structures**: Implements rule-based decision logic for fault diagnosis, leveraging predefined thresholds and bearing fault frequencies.
 
 **Advantages**:
 - No training data required.
@@ -29,11 +27,11 @@ This mode offers a selection of machine learning and deep learning models tailor
 
 **Model Portfolio:**
 
-- Gradient Boosting (LightGBM): For tabular data, offering robust, interpretable predictions with minimal resource consumption.
-- 1D CNN: Extracts features from raw vibration signals, ideal for identifying fault signatures in time-series data.
-- GRU (Gated Recurrent Units): Captures temporal patterns in sequential data while maintaining lower computational complexity compared to LSTM.
-- Autoencoders: For anomaly detection in unlabeled datasets, identifying deviations from normal operating conditions.
-- TinyML Adaptations: Lightweight versions of these models, pre-trained and quantized to run on resource-constrained devices like Raspberry Pi.
+- **Gradient Boosting (LightGBM)**: For tabular data, offering robust, interpretable predictions with minimal resource consumption.
+- **1D CNN**: Extracts features from raw vibration signals, ideal for identifying fault signatures in time-series data.
+- **GRU** (Gated Recurrent Units): Captures temporal patterns in sequential data while maintaining lower computational complexity compared to LSTM.
+- **Autoencoders**: For anomaly detection in unlabeled datasets, identifying deviations from normal operating conditions.
+- **TinyML Adaptations**: Lightweight versions of these models, pre-trained and quantized to run on resource-constrained devices like Raspberry Pi.
 
 **Advantages**:
 
