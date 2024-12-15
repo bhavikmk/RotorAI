@@ -1,4 +1,4 @@
-## Turbine Healthiness & Predictive Failure System
+## Predictive Maintenance and fault detection system for rotary machinery
 
 <img src="https://raw.githubusercontent.com/bhavikmk/windturbine/refs/heads/main/src/infographic.webp" alt="Predictive Maintenance System for Windturbine" width="300" height="300">
 
